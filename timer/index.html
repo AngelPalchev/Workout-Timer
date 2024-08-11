@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="motivation"></h1>
+<div class="timer">
+    <div id="timer">00:00</div>
+    <div class="buttons">
+        <button id="playButton">Play</button>
+        <button id="setTimerButton">Set Timer</button>
+    </div>
+
+    <div class="inputs">
+        <input type="number" id="timeInput" placeholder="Enter training time in sec." min="0" required>
+        <input type="number" id="repeatInput" placeholder="Repeat count of the timer" min="0">
+        <input type="number" id="restInput" placeholder="Enter rest time in sec." min="0">
+    </div>
+</div>
+
+    <img id="whistle" src="whistle_PNG19.png" alt="Whistle" width="100">
+    <img id="water" src="3ff0235348a30f12e453f3f768d08edc_t-removebg-preview.png">
+    <audio id="whistleSound" src="mixkit-police-short-whistle-615.wav"></audio>
+    <audio id="clickSound" src="clock-ticking-natural-room-verb-17249 (mp3cut (mp3cut.net).mp3"></audio>
+<script src="script.js"></script>
+</body>
+</html>
